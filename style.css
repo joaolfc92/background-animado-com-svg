@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+section h2{
+    position: relative;
+    font-size: 6em;
+    color:white;
+    transition: 0.5;
+    /*animation: anima 10s ease-in-out infinite;*/
+    /*filter: blur(10px);*/
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
+    text-shadow: 0 0 50px #21ebff;
+}
+
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+
+@keyframes anima{
+    o%{
+        color:white; 
+       
+        
+
+    }
+
+    50%{
+        color:white;
+        filter: blur(0px);
+        
+        
+    }
+
+    100%{
+        filter: blur(10px);
+    }
+}
